@@ -2,6 +2,7 @@
 # package uname - using uname to get system information
 #
 
+package require Tcl 8.5
 package provide uname 0.0.1
 
 namespace eval uname {
